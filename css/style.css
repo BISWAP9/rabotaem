@@ -30,7 +30,96 @@ p {
   text-transform: uppercase;
   color: #676770;
 }
+* {
+  box-sizing: border-box;
+}
+.decor {
+  position: absolute;
+  max-width: 400px;
+  background: white;
+  margin-top: 80px;
+  margin-left: 1200px;
+  border: 1px solid rgb(186, 144, 6);
+  border-radius: 30px;
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: rgb(186, 144, 6);
+  border-radius: 20px;
+  border: 1px solid rgb(186, 144, 6);
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid rgb(186, 144, 6);
+}
+.form-left-decoration:before {
+  top: -20px;
+}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
 
+.form-inner {
+  padding: 50px;
+}
+.form-inner input,
+.form-inner textarea {
+  display: absolute;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #e9eff6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: rgb(220, 190, 91);
+  border-bottom: 4px solid rgb(186, 144, 6);
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {
+  resize: none;
+}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
 .subtitle {
   font-size: 17px;
   line-height: 1.2;
