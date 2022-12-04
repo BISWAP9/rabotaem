@@ -161,9 +161,14 @@ p {
   font-size: 15px;
   letter-spacing: 4px;
   text-transform: uppercase;
+  color: #676770;
+}
+.logo:hover {
   color: rgb(169, 147, 62);
 }
-
+.logo:active {
+  color: rgb(186, 144, 6);
+}
 .header_nav ul {
   display: flex;
 }
@@ -219,20 +224,25 @@ p {
   margin-left: 20px;
 }
 .sendForm {
-  color: black;
+  color: #676770;
   display: inline-block;
+  margin-top: 40px;
   padding: 11px 30px;
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
   background: #fff569;
   border-radius: 4px;
+  border: 0.5px solid #676770;
   transition: background-color 0.1s;
 }
-.link-primary:hover {
+.sendForm:hover {
   background-color: rgb(169, 147, 62);
 }
-.link-primary:active {
+.sendForm:focus {
+  color: #252529;
+}
+.sendForm:active {
   background-color: rgb(186, 144, 6);
 }
 .link {
@@ -247,8 +257,8 @@ p {
   background-color: 0.1s;
 }
 .link:hover {
-  background-color: rgb(255, 255, 255, 0.2);
-  border-color: rgb(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .link:active {
   background-color: rgb(0, 0, 0, 0.2);
@@ -373,6 +383,13 @@ p {
   min-width: 220px;
 }
 .footer_desc a {
+  font-size: 13px;
+  color: #676770;
+}
+.footer_desc a:hover {
+  color: rgb(169, 147, 62);
+}
+.footer_desc a:active {
   font-size: 13px;
   color: rgb(186, 144, 6);
 }
