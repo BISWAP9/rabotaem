@@ -42,51 +42,6 @@ p {
   border: 1px solid rgb(186, 144, 6);
   border-radius: 30px;
 }
-.form-left-decoration,
-.form-right-decoration {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  background: rgb(186, 144, 6);
-  border-radius: 20px;
-  border: 1px solid rgb(186, 144, 6);
-}
-.form-left-decoration {
-  bottom: 60px;
-  left: -30px;
-}
-.form-right-decoration {
-  top: 60px;
-  right: -30px;
-}
-.form-left-decoration:before,
-.form-left-decoration:after,
-.form-right-decoration:before,
-.form-right-decoration:after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  border-radius: 30px;
-  background: white;
-  border: 1px solid rgb(186, 144, 6);
-}
-.form-left-decoration:before {
-  top: -20px;
-}
-.form-left-decoration:after {
-  top: 20px;
-  left: 10px;
-}
-.form-right-decoration:before {
-  top: -20px;
-  right: 0;
-}
-.form-right-decoration:after {
-  top: 20px;
-  right: 10px;
-}
 
 .form-inner {
   padding: 50px;
@@ -161,12 +116,16 @@ p {
   font-size: 15px;
   letter-spacing: 4px;
   text-transform: uppercase;
+}
+
+.phone-but {
   color: #676770;
 }
-.logo:hover {
+
+.phone-but:hover {
   color: rgb(169, 147, 62);
 }
-.logo:active {
+.phone-but:active {
   color: rgb(186, 144, 6);
 }
 .header_nav ul {
@@ -256,14 +215,6 @@ p {
   transition: border-color 0.1s;
   background-color: 0.1s;
 }
-.link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.5);
-}
-.link:active {
-  background-color: rgb(0, 0, 0, 0.2);
-  border-color: rgb(0, 0, 0, 0.5);
-}
 /* ___________-------- -----------ABOUT */
 
 .about .cards-wrapper {
@@ -296,8 +247,7 @@ p {
   color: #676770;
 }
 /* ----------------ABOUT WHAT WE DO */
-.services {
-}
+
 .services .cards-wrapper {
   display: flex;
   justify-content: space-between;
