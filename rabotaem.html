@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,7 +29,7 @@
         <div class="container">
           <h2 class="welcome_heading">Работаем за вас 24/7</h2>
           <div class="welcome_links">
-            <a href="#" class="link-primary">Оставить заявку</a>
+            <button class="link-primary">Оставить заявку</button>
             <form action="sendForm.php" method="POST" class='decor'>
               <div class="form-right-decoration"></div>
               <div class="form-left-decoration"></div>
@@ -37,8 +37,8 @@
               <h3>Написать нам</h3>
               <input type="text" name="name" placeholder="Ваше имя">
               <input type="telephone" name="tel" placeholder="+7 (   )  -  -  ">
-              <textarea placeholder="Мне требуются..." rows="3"></textarea>
-              <input type="submit" value="Отправить">
+              <textarea name="work" placeholder="Мне требуются..." rows="3"></textarea>
+              <input class="send" type="submit">
               </div>
             </form>
           </div>
