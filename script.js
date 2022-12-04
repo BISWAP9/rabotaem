@@ -41,7 +41,7 @@ anchors.forEach((anc) => {
   });
 });
 
-const formBtn = document.querySelector(".link-primary");
+const formBtn = document.querySelector(".sendForm");
 const form = document.querySelector(".decor");
 const send = document.querySelector(".send");
 form.hidden = true;
