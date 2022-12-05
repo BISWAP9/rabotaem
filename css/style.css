@@ -124,12 +124,6 @@ p {
   background-position: center;
 }
 
-.form-inner h3 {
-  margin-top: 0;
-  font-weight: 500;
-  font-size: 24px;
-  color: #707981;
-}
 .welcome_heading {
   margin-bottom: 100px;
   font-size: 59px;
@@ -143,62 +137,6 @@ p {
 }
 .welcome_links > * + * {
   margin-left: 20px;
-}
-.sendForm {
-  color: #676770;
-  display: inline-block;
-  margin-top: 40px;
-  padding: 11px 30px;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background: #fff569;
-  border-radius: 4px;
-  border: 0.5px solid #676770;
-  transition: background-color 0s;
-}
-.sendForm:hover {
-  background-color: rgb(169, 147, 62);
-  opacity: 0.5;
-}
-.sendForm:focus {
-  opacity: 0.5;
-  color: #252529;
-}
-.sendForm:active {
-  background-color: rgb(186, 144, 6);
-}
-
-.decor {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 170px;
-  max-width: 400px;
-  background: white;
-  border: 1px solid rgb(186, 144, 6);
-  border-radius: 30px;
-}
-
-.form-inner {
-  padding: 50px;
-}
-.form-inner input,
-.form-inner textarea {
-  display: absolute;
-  width: 100%;
-  padding: 0 20px;
-  margin-bottom: 10px;
-  background: #e9eff6;
-  line-height: 40px;
-  border-width: 0;
-  border-radius: 20px;
-}
-.form-inner input[type="submit"] {
-  margin-top: 30px;
-  background: rgb(220, 190, 91);
-  border-bottom: 4px solid rgb(186, 144, 6);
-  color: white;
-  font-size: 14px;
 }
 
 .link {

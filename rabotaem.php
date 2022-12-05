@@ -54,7 +54,7 @@
 							<a href="https://t.me/mr_amorr">Telegram</a>
 						</li>
 						<li>
-							<img src="/img/dashicons_whatsapp.svg" alt="Whatsup" />
+							<img src="/img/whatsapp.svg" alt="Whatsup" />
 							<a href="https://wa.me/79919527466">WhatsApp</a>
 						</li>
 						<li>
@@ -67,7 +67,12 @@
 		</div>
 		<div class="footer_copy">
 			<div class="container">
-				<p>Звоните прямо сейчас! <a class="phone-but" href="tel:+79919527466">+7(991)-952-74-66</a></p>
+				<p>Звоните прямо сейчас! &nbsp;<img src="/img/footerTel.svg" alt="Tel" /> &nbsp;<a class="phone-but" href="tel:+79919527466">+7(991)-952-74-66</a></p>
+				<p>OOO "Работаем за вас 24/7"<br>Все права защищены. &copy<br>
+					<script>
+						document.write(new Date().getFullYear());
+					</script>
+				</p>
 			</div>
 		</div>
 	</footer>

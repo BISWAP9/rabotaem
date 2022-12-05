@@ -40,16 +40,3 @@ anchors.forEach((anc) => {
     });
   });
 });
-
-const formBtn = document.querySelector(".sendForm");
-const form = document.querySelector(".decor");
-// const send = document.querySelector(".send");
-form.hidden = true;
-
-formBtn.addEventListener("click", () => {
-  form.hidden = false;
-});
-
-// send.addEventListener("click", () => {
-//   form.hidden = true;
-// });
