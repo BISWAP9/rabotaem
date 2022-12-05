@@ -7,3 +7,6 @@ if ($url[1] == "sendForm.php") {
 } else {
 	$content = file_get_contents("page/main.html");
 }
+
+if (!empty($content))
+	require_once("template.php");
