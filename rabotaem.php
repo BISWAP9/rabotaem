@@ -67,8 +67,8 @@
 		</div>
 		<div class="footer_copy">
 			<div class="container">
-				<p>Звоните прямо сейчас! &nbsp;<img src="/img/footerTel.svg" alt="Tel" /> &nbsp;<a class="phone-but" href="tel:+79919527466">+7(991)-952-74-66</a></p>
-				<p>OOO "Работаем за вас 24/7"<br>Все права защищены. &copy<br>
+				<p>Звоните прямо сейчас! &nbsp;<img src="/img/footerTel.svg" alt="Tel" /><a class="phone-but" href="tel:+79919527466">+7(991)-952-74-66</a></p>
+				<p>OOO «Работаем за вас 24/7»<br>Все права защищены. &copy<br>
 					<script>
 						document.write(new Date().getFullYear());
 					</script>
