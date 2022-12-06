@@ -5,6 +5,9 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Страница для найма разнорабочих">
+	<meta name="keywords" content="разнорабочие, подсобники, рабочие, грузчики">
+	<meta name="author" content="Лаптов Виктор">
 	<link rel="shortcut icon" href="/img/tool3_122846.svg">
 	<title>Работаем за вас 24/7</title>
 	<!-- style link -->
